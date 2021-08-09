@@ -4,7 +4,7 @@
   "description": "Background script for using NPM on Microsoft-like filesystems",
   "main": "main.js",
   "scripts": {
-	"start": "node main.js", 
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +26,7 @@
   },
   "homepage": "https://github.com/PiciAkk/msfs.js#readme",
   "dependencies": {
+    "chokidar": "^3.5.2",
+    "lolcatjs": "^2.4.1"
   }
 }
