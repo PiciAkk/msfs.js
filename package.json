@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js &",
+    "stop": "touch msfsKillSignal && sleep 1 && rm msfsKillSignal",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
