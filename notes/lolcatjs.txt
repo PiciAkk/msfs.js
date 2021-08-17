@@ -1,0 +1,12 @@
+code:
+---------
+const lolcatjs = require('lolcatjs');
+lolcatjs.options.seed = Math.round(Math.random() * 1000);
+
+lolcatjs.options.colors = true;
+lolcatjs.fromString('Activating MSFS.js...');
+lolcatjs.fromString("Deactivating MSFS.js...");
+
+dependencies:
+---------------
+"lolcatjs": "^2.4.1"
